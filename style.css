@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header-band {
+    background-image: url(assets/images/background-pattern-desktop.svg);
+    background-size: cover;
+    height: 25vh;
+}
+
+main {
+    background-color: hsl(300, 68%, 96%);
+    display: flex;
+    justify-content: center;
+    /* min-height: 100vh; */
+    align-items: flex-start;
+}
+.content-box {
+    background-color:white;
+    width: min(500px,80%);
+    padding: 2.5rem;
+    border-radius: 10px;
+    transform: translateY(-10vh);
+    box-shadow: 0px 0px 20px hsla(286, 50%, 20%, 0.383); 
+    /* optional: adds depth */
+
+}
+.separator {
+    height: 1px;
+    background-color: hsl(0, 5%, 92%, 0.8);
+    margin: 20px auto;
+}
+details > summary + p {
+  margin-top: 1rem;
+  color: hsl(292, 16%, 49%);
+}
+
+h1 {
+  margin-bottom: 2rem; 
+}
+
+summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  color: hsl(292, 42%, 14%) ;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+
+summary::after {
+    content:url(assets/images/icon-plus.svg);
+   
+}
+
+summary:hover, summary:focus {
+    color: rgb(138, 8, 138);
+}
+
+details[open] summary::after {
+  content: url(assets/images/icon-minus.svg);
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  margin-right: 1em;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
