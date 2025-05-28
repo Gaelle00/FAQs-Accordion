@@ -10,8 +10,6 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -47,31 +45,6 @@ The process is built using only HTML and CSS features.
 - CSS Classes
 - Flexbox
 
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-
 ### Useful resources
 
 - [Mozilla developer Network](https://developer.mozilla.org/en-US/)- This helps with understanding the concepts with examples to showcases. Flex properties for example
@@ -80,5 +53,3 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - Website - (https://gaelle00.github.io/FAQs-Accordion/)
 - Frontend Mentor - [@Gaelle00](https://www.frontendmentor.io/profile/@Gaelle00)
- 
-
