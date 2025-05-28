@@ -22,7 +22,7 @@ body {
 }
 
 main {
-    background-color: hsl(300, 68%, 96%);
+    background-color:hsl(275, 100%, 97%);
     display: flex;
     justify-content: center;
     min-height: 100vh;
