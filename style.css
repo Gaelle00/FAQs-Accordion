@@ -18,7 +18,7 @@ body {
 .header-band {
     background-image: url(assets/images/background-pattern-desktop.svg);
     background-size: cover;
-    height: 25vh;
+    height: 30vh;
 }
 
 main {
@@ -33,7 +33,7 @@ main {
     width: min(500px,80%);
     padding: 2.5rem;
     border-radius: 10px;
-    transform: translateY(-10vh);
+    transform: translateY(-12vh);
     box-shadow: 0px 0px 20px hsla(286, 50%, 20%, 0.383); 
     /* optional: adds depth */
 
@@ -51,6 +51,7 @@ details > summary + p {
 
 h1 {
   margin-bottom: 2rem; 
+  font-size: xx-large;
 }
 
 summary {
